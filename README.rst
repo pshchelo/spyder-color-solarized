@@ -60,14 +60,12 @@ Screenshots
 ===========
 
 .. image:: https://github.com/pshchelo/spyder-color-solarized/raw/master/spyder-SolLight.png
-   :width: 48%
+   :width: 400px
    :alt: Spyder with Solarized Light
-   :align: left
    :target: https://github.com/pshchelo/spyder-color-solarized/raw/master/spyder-SolLight.png
 .. image:: https://github.com/pshchelo/spyder-color-solarized/raw/master/spyder-SolDark.png
-   :width: 48%
+   :width: 400px
    :alt: Spyder with Solarized Dark
-   :align: right
    :target: https://github.com/pshchelo/spyder-color-solarized/raw/master/spyder-SolDark.png
 
 
@@ -79,8 +77,44 @@ much set solid by following the principles of the original Solarized scheme,
 improvement suggestions for the other assignments are very welcome.
 
 
-Current color assignments 
+Current color assignments
 =========================
+
++------------------+----------------------+----------------+
+|                  | Solarized color name | Hex color code |
+|  Spyder element  +----------+-----------+--------+-------+
+|                  |   Light  |   Dark    |  Light | Dark  |
++==================+==========+===========+========+=======+
+| Background       | base3    | base03    |#fdf6e3 |#002b36|
++------------------+----------+-----------+--------+-------+
+| Current line     | base2    | base02    |        |       |
++------------------+----------+-----------+--------+-------+
+|                  |          |           |        |       |
++------------------+----------+-----------+--------+-------+
+|                  |          |           |        |       |
++------------------+----------+-----------+--------+-------+
+|                  |          |           |        |       |
++------------------+----------+-----------+--------+-------+
+|                  |          |           |        |       |
++------------------+----------+-----------+--------+-------+
+|                  |          |           |        |       |
++------------------+----------+-----------+--------+-------+
+|                  |          |           |        |       |
++------------------+----------+-----------+--------+-------+
+|                  |          |           |        |       |
++------------------+----------+-----------+--------+-------+
+|                  |          |           |        |       |
++------------------+----------+-----------+--------+-------+
+|                  |          |           |        |       |
++------------------+----------+-----------+--------+-------+
+|                  |          |           |        |       |
++------------------+----------+-----------+--------+-------+
+|                  |          |           |        |       |
++------------------+----------+-----------+--------+-------+
+|                  |          |           |        |       |
++------------------+----------+-----------+--------+-------+
+|                  |          |           |        |       |
++------------------+----------+-----------+--------+-------+
 
 Spyder element			Light		LightHex	Dark		DarkHex
 
@@ -90,7 +124,7 @@ Occurrence				blue		#268bd2		blue		#268bd2
 Link					base01		#586e75		base1		#93a1a1
 Side areas				base2		#eee8d5		base02		#073642 
 Matched brackets		blue		#268bd2		blue		#268bd2
-unmatched brackets		red			#dc322f		red			#dc322f
+Unmatched brackets		red			#dc322f		red			#dc322f
 Normal text				base00		#657b83		base0		#839496
 Keyword					green		#859900		green		#859900
 Built-in				violet		#6c71c4		violet		#6c71c4
@@ -99,5 +133,4 @@ Comment					base1-i		#93a1a1		base01-i	#586e75
 String					cyan		#2aa198		cyan		#2aa198
 Number					orange		#cb4b16		orange		#cb4b16
 Instance				yellow-i	#b58900		yellow-i	#b58900
-
 
