@@ -14,8 +14,9 @@ https://github.com/pshchelo/spyder-color-solarized.
 This project is released under MIT license (see LICENSE.txt), as both 
 Solarized and Spyder themselves.
 
-About Solarized Color Scheme, citing its author Ethan Schoonover 
-(http://ethanschoonover.com/solarized):
+About Solarized color scheme, citing its author 
+Ethan Schoonover (http://ethanschoonover.com/solarized)\:
+
 	Solarized is a sixteen color palette (eight monotones, eight accent colors) 
 	designed for use with terminal and gui applications. 
 	It has several unique properties. 
@@ -27,12 +28,14 @@ About Solarized Color Scheme, citing its author Ethan Schoonover
 	and in a variety of lighting conditions.
 
 The main repository of Solarized Color Scheme is found on GitHub at
-https://github.com/altercation/solarized
+https://github.com/altercation/solarized.
 
-About Spyder (http://code.google.com/p/spyderlib/):
+About Spyder (http://code.google.com/p/spyderlib):
+
 	Spyder (previously known as Pydee) is a powerful interactive development 
 	environment for the Python language with advanced editing, interactive 
 	testing, debugging and introspection features.
+
 
 Installation Instructions
 =========================
@@ -41,12 +44,12 @@ I have not yet found a way to include Solarized support as a Spyder plugin,
 so the solution I use is to meddle with configuration files.
 
 #. Close all instances of Spyder if it is running.
-#. Find a Spyder config file at ``~/.spyder2/.spyder.ini`` on *nix/BSD/MacOSX 
+#. Find a Spyder config file at ``~/.spyder2/.spyder.ini`` on \*nix/BSD/MacOSX 
    or ``c:\Users\[yourusername]\.spyder2\.spyder.ini`` on Windows Vista/7.
-   You may have to turn the display of hidden files to find this folder 
+   You may have to turn the display of hidden files on to find this folder 
    and this file. Open this file with the text editor of your choice.
 #. Find a section named ``[color_schemes]`` inside this file.
-#. Replace the next line (starting with ``names = ``...) with the content
+#. Replace the next line (starting with ``names =`` ...) with the content
    of the ``spyder.ini`` file in this repo (note that I intentionally omitted 
    the leading dot in the included file name so that it is not hidden).
 #. Save and close ``.spyder.ini``, start Spyder and choose SolLight or SolDark as your 
@@ -56,7 +59,17 @@ so the solution I use is to meddle with configuration files.
 Screenshots
 ===========
 
-to be added...
+.. image:: https://github.com/pshchelo/spyder-color-solarized/raw/master/spyder-SolLight.png
+   :width: 48%
+   :alt: Spyder with Solarized Light
+   :align: left
+   :target: https://github.com/pshchelo/spyder-color-solarized/raw/master/spyder-SolLight.png
+.. image:: https://github.com/pshchelo/spyder-color-solarized/raw/master/spyder-SolDark.png
+   :width: 48%
+   :alt: Spyder with Solarized Dark
+   :align: right
+   :target: https://github.com/pshchelo/spyder-color-solarized/raw/master/spyder-SolDark.png
+
 
 Contributing
 ============
@@ -65,8 +78,9 @@ This work is in progress, and although some color assignments
 much set solid by following the principles of the original Solarized scheme, 
 improvement suggestions for the other assignments are very welcome.
 
-Summary of colors used
-======================
+
+Current color assignments 
+=========================
 
 Spyder element			Light		LightHex	Dark		DarkHex
 
