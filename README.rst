@@ -60,11 +60,11 @@ Screenshots
 ===========
 
 .. image:: https://github.com/pshchelo/spyder-color-solarized/raw/master/spyder-SolLight.png
-   :width: 45%
+   :width: 100px
    :alt: Spyder with Solarized Light
    :target: https://github.com/pshchelo/spyder-color-solarized/raw/master/spyder-SolLight.png
 .. image:: https://github.com/pshchelo/spyder-color-solarized/raw/master/spyder-SolDark.png
-   :width: 45%
+   :width: 100px
    :alt: Spyder with Solarized Dark
    :target: https://github.com/pshchelo/spyder-color-solarized/raw/master/spyder-SolDark.png
 
