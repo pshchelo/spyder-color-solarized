@@ -1,6 +1,6 @@
-================================================
+========================
 Solarized for Spyder IDE
-================================================
+========================
 
 About
 =====
@@ -41,7 +41,7 @@ Installation Instructions
 =========================
 
 I have not yet found a way to include Solarized support as a Spyder plugin,
-so the solution I use is to meddle with configuration files.
+so the solution I use is to tinker with configuration files.
 
 #. Close all instances of Spyder if it is running.
 #. Find a Spyder config file at ``~/.spyder2/.spyder.ini`` on \*nix/BSD/MacOSX 
@@ -60,11 +60,11 @@ Screenshots
 ===========
 
 .. image:: https://github.com/pshchelo/spyder-color-solarized/raw/master/spyder-SolLight.png
-   :width: 400px
+   :width: 45%
    :alt: Spyder with Solarized Light
    :target: https://github.com/pshchelo/spyder-color-solarized/raw/master/spyder-SolLight.png
 .. image:: https://github.com/pshchelo/spyder-color-solarized/raw/master/spyder-SolDark.png
-   :width: 400px
+   :width: 45%
    :alt: Spyder with Solarized Dark
    :target: https://github.com/pshchelo/spyder-color-solarized/raw/master/spyder-SolDark.png
 
@@ -80,57 +80,38 @@ improvement suggestions for the other assignments are very welcome.
 Current color assignments
 =========================
 
-+------------------+----------------------+----------------+
-|                  | Solarized color name | Hex color code |
-|  Spyder element  +----------+-----------+--------+-------+
-|                  |   Light  |   Dark    |  Light | Dark  |
-+==================+==========+===========+========+=======+
-| Background       | base3    | base03    |#fdf6e3 |#002b36|
-+------------------+----------+-----------+--------+-------+
-| Current line     | base2    | base02    |        |       |
-+------------------+----------+-----------+--------+-------+
-|                  |          |           |        |       |
-+------------------+----------+-----------+--------+-------+
-|                  |          |           |        |       |
-+------------------+----------+-----------+--------+-------+
-|                  |          |           |        |       |
-+------------------+----------+-----------+--------+-------+
-|                  |          |           |        |       |
-+------------------+----------+-----------+--------+-------+
-|                  |          |           |        |       |
-+------------------+----------+-----------+--------+-------+
-|                  |          |           |        |       |
-+------------------+----------+-----------+--------+-------+
-|                  |          |           |        |       |
-+------------------+----------+-----------+--------+-------+
-|                  |          |           |        |       |
-+------------------+----------+-----------+--------+-------+
-|                  |          |           |        |       |
-+------------------+----------+-----------+--------+-------+
-|                  |          |           |        |       |
-+------------------+----------+-----------+--------+-------+
-|                  |          |           |        |       |
-+------------------+----------+-----------+--------+-------+
-|                  |          |           |        |       |
-+------------------+----------+-----------+--------+-------+
-|                  |          |           |        |       |
-+------------------+----------+-----------+--------+-------+
-
-Spyder element			Light		LightHex	Dark		DarkHex
-
-Background				base3		#fdf6e3		base03		#002b36
-Current line			base2		#eee8d5		base02		#073642 
-Occurrence				blue		#268bd2		blue		#268bd2 
-Link					base01		#586e75		base1		#93a1a1
-Side areas				base2		#eee8d5		base02		#073642 
-Matched brackets		blue		#268bd2		blue		#268bd2
-Unmatched brackets		red			#dc322f		red			#dc322f
-Normal text				base00		#657b83		base0		#839496
-Keyword					green		#859900		green		#859900
-Built-in				violet		#6c71c4		violet		#6c71c4
-Definition				magenta-b	#d33682		magenta-b	#d33682
-Comment					base1-i		#93a1a1		base01-i	#586e75
-String					cyan		#2aa198		cyan		#2aa198
-Number					orange		#cb4b16		orange		#cb4b16
-Instance				yellow-i	#b58900		yellow-i	#b58900
-
++--------------------+----------------------+-------------------+----------+
+|                    | Solarized color name |   Hex color code  |          |
+|  Spyder element    +-----------+----------+---------+---------+  Style   +
+|                    |   Light   |   Dark   |  Light  |   Dark  |          |
++====================+===========+==========+=========+=========+==========+
+| Background         |   base3   |  base03  | #fdf6e3 | #002b36 |          |
++--------------------+-----------+----------+---------+---------+----------+
+| Current line       |   base2   |  base02  | #eee8d5 | #073642 |          |
++--------------------+-----------+----------+---------+---------+----------+
+| Occurrence         |          blue        |      #268bd2      |          |
++--------------------+-----------+----------+---------+---------+----------+
+| Link               |   base01  |  base1   | #586e75 | #93a1a1 |          |
++--------------------+-----------+----------+---------+---------+----------+
+| Side areas         |   base2   |  base02  | #eee8d5 | #073642 |          |
++--------------------+-----------+----------+---------+---------+----------+
+| Matched brackets   |          blue        |      #268bd2      |          |
++--------------------+-----------+----------+---------+---------+----------+
+| Unmatched brackets |          red         |      #dc322f      |          |
++--------------------+-----------+----------+---------+---------+----------+
+| Normal text        |   base0   |  base00  | #839496 | #657b83 |          |
++--------------------+-----------+----------+---------+---------+----------+
+| Keyword            |         green        |      #859900      |          |
++--------------------+-----------+----------+---------+---------+----------+
+| Built-in           |         violet       |      #6c71c4      |          |
++--------------------+-----------+----------+---------+---------+----------+
+| Definition         |        magenta       |      #d33682      | **bold** |
++--------------------+-----------+----------+---------+---------+----------+
+| Comment            |   base1   |  base01  | #93a1a1 | #586e75 | *italic* |
++--------------------+-----------+----------+---------+---------+----------+
+| String             |          cyan        |      #2aa198      |          |
++--------------------+-----------+----------+---------+---------+----------+
+| Number             |         orange       |      #cb4b16      |          |
++--------------------+-----------+----------+---------+---------+----------+
+| Instance           |         yellow       |      #b58900      | *italic* |
++--------------------+-----------+----------+---------+---------+----------+
