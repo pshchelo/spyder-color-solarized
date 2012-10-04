@@ -52,8 +52,9 @@ so the solution I use is to tinker with configuration files.
 #. Replace the next line (starting with ``names =`` ...) with the content
    of the ``spyder.ini`` file in this repo (note that I intentionally omitted 
    the leading dot in the included file name so that it is not hidden).
-#. Save and close ``.spyder.ini``, start Spyder and choose SolLight or SolDark as your 
-   editor color scheme in ``Preferences -> Editor -> Display -> Syntax color scheme``.
+#. Save and close ``.spyder.ini``, start Spyder and choose  
+   SolarizedLight or SolarizedDark as your editor color scheme in 
+   ``Preferences -> Editor -> Display -> Syntax color scheme``.
    
 
 Screenshots
@@ -89,23 +90,23 @@ Current color assignments
 +--------------------+-----------+----------+---------+---------+----------+
 | Current line       |   base2   |  base02  | #eee8d5 | #073642 |          |
 +--------------------+-----------+----------+---------+---------+----------+
-| Occurrence         |          blue        |      #268bd2      |          |
+| Occurrence         |   base0   |  base00  | #839496 | #657b83 |          |
 +--------------------+-----------+----------+---------+---------+----------+
-| Link               |   base01  |  base1   | #586e75 | #93a1a1 |          |
+| Link               |        magenta       |      #d33682      |          |
 +--------------------+-----------+----------+---------+---------+----------+
 | Side areas         |   base2   |  base02  | #eee8d5 | #073642 |          |
 +--------------------+-----------+----------+---------+---------+----------+
-| Matched brackets   |          blue        |      #268bd2      |          |
+| Matched brackets   |   base01  |  base1   | #586e75 | #93a1a1 |          |
 +--------------------+-----------+----------+---------+---------+----------+
 | Unmatched brackets |          red         |      #dc322f      |          |
 +--------------------+-----------+----------+---------+---------+----------+
-| Normal text        |   base0   |  base00  | #839496 | #657b83 |          |
+| Normal text        |   base00  |  base0   | #657b83 | #839496 |          |
 +--------------------+-----------+----------+---------+---------+----------+
 | Keyword            |         green        |      #859900      |          |
 +--------------------+-----------+----------+---------+---------+----------+
 | Built-in           |         violet       |      #6c71c4      |          |
 +--------------------+-----------+----------+---------+---------+----------+
-| Definition         |        magenta       |      #d33682      | **bold** |
+| Definition         |          blue        |      #268bd2      | **bold** |
 +--------------------+-----------+----------+---------+---------+----------+
 | Comment            |   base1   |  base01  | #93a1a1 | #586e75 | *italic* |
 +--------------------+-----------+----------+---------+---------+----------+
