@@ -2,6 +2,19 @@
 Solarized for Spyder IDE
 ========================
 
+Status
+======
+
+I am no longer a Spyder user, so this is effectively abandoned.
+
+Leaving it here for Spyder 2.x and Spyder 3.0 users.
+
+For Spyder 3.1 there is a pull request
+https://github.com/spyder-ide/spyder/pull/3534
+that proposes it to master and probably will be backported to 3.1 -
+please help the author to merge it and enjoy Solarized in
+Spyder out-of-the-ox :)
+
 About
 =====
 
@@ -11,20 +24,20 @@ into Spyder Python IDE.
 This project repository is found on GitHub at
 https://github.com/pshchelo/spyder-color-solarized.
 
-This project is released under MIT license (see LICENSE.txt), as both 
+This project is released under MIT license (see LICENSE.txt), as both
 Solarized and Spyder themselves.
 
-About Solarized color scheme, citing its author 
+About Solarized color scheme, citing its author
 Ethan Schoonover (http://ethanschoonover.com/solarized)\:
 
-	Solarized is a sixteen color palette (eight monotones, eight accent colors) 
-	designed for use with terminal and gui applications. 
-	It has several unique properties. 
-	I designed this colorscheme with both precise CIELAB lightness 
-	relationships and a refined set of hues based on fixed color wheel 
-	relationships. 
-	It has been tested extensively in real world use on color calibrated 
-	displays (as well as uncalibrated/intentionally miscalibrated 	displays) 
+	Solarized is a sixteen color palette (eight monotones, eight accent colors)
+	designed for use with terminal and gui applications.
+	It has several unique properties.
+	I designed this colorscheme with both precise CIELAB lightness
+	relationships and a refined set of hues based on fixed color wheel
+	relationships.
+	It has been tested extensively in real world use on color calibrated
+	displays (as well as uncalibrated/intentionally miscalibrated 	displays)
 	and in a variety of lighting conditions.
 
 The main repository of Solarized Color Scheme is found on GitHub at
@@ -32,8 +45,8 @@ https://github.com/altercation/solarized.
 
 About Spyder (http://code.google.com/p/spyderlib):
 
-	Spyder (previously known as Pydee) is a powerful interactive development 
-	environment for the Python language with advanced editing, interactive 
+	Spyder (previously known as Pydee) is a powerful interactive development
+	environment for the Python language with advanced editing, interactive
 	testing, debugging and introspection features.
 
 
@@ -44,18 +57,18 @@ I have not yet found a way to include Solarized support as a Spyder plugin,
 so the solution I use is to tinker with configuration files.
 
 #. Close all instances of Spyder if it is running.
-#. Find a Spyder config file at ``~/.spyder2/.spyder.ini`` on \*nix/BSD/MacOSX 
+#. Find a Spyder config file at ``~/.spyder2/.spyder.ini`` on \*nix/BSD/MacOSX
    or ``c:\Users\[yourusername]\.spyder2\.spyder.ini`` on Windows Vista/7.
-   You may have to turn the display of hidden files on to find this folder 
+   You may have to turn the display of hidden files on to find this folder
    and this file. Open this file with the text editor of your choice.
 #. Find a section named ``[color_schemes]`` inside this file.
 #. Replace the next line (starting with ``names =`` ...) with the content
-   of the ``spyder.ini`` file in this repo (note that I intentionally omitted 
+   of the ``spyder.ini`` file in this repo (note that I intentionally omitted
    the leading dot in the included file name so that it is not hidden).
-#. Save and close ``.spyder.ini``, start Spyder and choose  
-   SolarizedLight or SolarizedDark as your editor color scheme in 
+#. Save and close ``.spyder.ini``, start Spyder and choose
+   SolarizedLight or SolarizedDark as your editor color scheme in
    ``Preferences -> Editor -> Display -> Syntax color scheme``.
-   
+
 
 Screenshots
 ===========
@@ -68,14 +81,6 @@ Screenshots
    :width: 100px
    :alt: Spyder with Solarized Dark
    :target: https://github.com/pshchelo/spyder-color-solarized/raw/master/spyder-SolDark.png
-
-
-Contributing
-============
-This work is in progress, and although some color assignments 
-(text, background, comments, side area/current line) are pretty 
-much set solid by following the principles of the original Solarized scheme, 
-improvement suggestions for the other assignments are very welcome.
 
 
 Current color assignments
