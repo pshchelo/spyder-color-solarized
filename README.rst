@@ -43,7 +43,7 @@ Ethan Schoonover (http://ethanschoonover.com/solarized)\:
 The main repository of Solarized Color Scheme is found on GitHub at
 https://github.com/altercation/solarized.
 
-About Spyder (http://code.google.com/p/spyderlib):
+About Spyder (https://github.com/spyder-ide/spyder):
 
 	Spyder (previously known as Pydee) is a powerful interactive development
 	environment for the Python language with advanced editing, interactive
