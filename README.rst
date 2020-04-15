@@ -2,8 +2,8 @@
 Solarized for Spyder IDE
 ========================
 
-Status
-======
+Status - archived since 2020-04-15
+==================================
 
 I am no longer a Spyder user, so this is effectively abandoned.
 
